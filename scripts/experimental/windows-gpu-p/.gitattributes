@@ -1,0 +1,2 @@
+# This public policy is byte-pinned by Common.ps1; preserve its reviewed bytes.
+Nvidia-TargetPolicy.json -text whitespace=cr-at-eol

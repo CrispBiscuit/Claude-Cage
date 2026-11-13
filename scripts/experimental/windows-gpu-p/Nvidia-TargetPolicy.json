@@ -1,0 +1,29 @@
+{
+  "Schema": 1,
+  "PolicyId": "NVIDIA_SYSTEM32_NESTED_20261112_V1",
+  "Provider": "NVIDIA",
+  "AllowedNestedRelativePaths": [
+    "system32\\drivers\\nvidia corporation\\drs\\dbinstaller.exe",
+    "system32\\drivers\\nvidia corporation\\drs\\nvdrsdb.bin",
+    "system32\\drivers\\nvidia corporation\\license.txt",
+    "system32\\lxss\\lib\\libcuda.so",
+    "system32\\lxss\\lib\\libcuda.so.1",
+    "system32\\lxss\\lib\\libcuda.so.1.1",
+    "system32\\lxss\\lib\\libcudadebugger.so.1",
+    "system32\\lxss\\lib\\libnvcuvid.so",
+    "system32\\lxss\\lib\\libnvcuvid.so.1",
+    "system32\\lxss\\lib\\libnvdxdlkernels.so",
+    "system32\\lxss\\lib\\libnvidia-encode.so",
+    "system32\\lxss\\lib\\libnvidia-encode.so.1",
+    "system32\\lxss\\lib\\libnvidia-gpucomp.so",
+    "system32\\lxss\\lib\\libnvidia-ml.so.1",
+    "system32\\lxss\\lib\\libnvidia-ngx.so.1",
+    "system32\\lxss\\lib\\libnvidia-opticalflow.so",
+    "system32\\lxss\\lib\\libnvidia-opticalflow.so.1",
+    "system32\\lxss\\lib\\libnvoptix.so.1",
+    "system32\\lxss\\lib\\libnvwgf2umx.so",
+    "system32\\lxss\\lib\\nvidia-ngx-updater",
+    "system32\\lxss\\lib\\nvidia-smi"
+  ],
+  "Constraint": "Exact names only; selected-device association and same-file-ID plus SHA256 active-package binding required. No executable is run and no WSL configuration is changed."
+}
